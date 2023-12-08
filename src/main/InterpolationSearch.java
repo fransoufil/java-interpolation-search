@@ -48,11 +48,13 @@ public class InterpolationSearch {
         int key = scan.nextInt();
  
         int result = interpolationSearch(arr, key);
+        int position = result + 1;
  
         if (result == -1)
             System.out.println("\n"+ key +" element not found");
         else
-            System.out.println("\n"+ key +" elemnt found at position "+ result);
+            System.out.println("\n"+ key +" elemnt found at position " + result);
+        	System.out.println("\n"+ key +" is in the number position " + position );
 
 	}
 
